@@ -1,7 +1,16 @@
 "use strict";
 
-var arr = [1, 3, 4, 5, 8, 9];
-var newArr = arr.map(function (item, index) {
-  return item + index;
-});
-console.log(newArr);
+var usuario = {
+  nome: 'Caio',
+  idade: 28,
+  endereco: {
+    cidade: 'São Paulo',
+    estado: 'SP'
+  }
+};
+var nome = usuario.nome,
+    idade = usuario.idade,
+    cidade = usuario.endereco.cidade;
+console.log(nome);
+console.log(idade);
+console.log(cidade);
