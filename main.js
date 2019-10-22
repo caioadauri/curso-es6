@@ -1,16 +1,6 @@
-//REST
+const nome = 'Caio';
+const idade = 28;
 
-function soma(a, b, ...params) {
-  return params;
-}
+//console.log('Meu nome é ' + nome + 'e tenho ' + idade + ' anos');
 
-console.log(soma(1, 2, 3, 4, 5, 6, 7,));
-
-// SPREAD
-
-const arr1 = [1, 2, 3];
-const arr2 = [4, 5, 6];
-
-const arr3 = [...arr1, ...arr2];
-
-console.log(arr3);
+console.log(`Meu nome é ${nome} e tenho ${idade} anos`);
