@@ -1,14 +1,16 @@
-const usuario = {
-  nome: 'Caio',
-  idade: 28,
-  endereco: {
-    cidade: 'São Paulo',
-    estado: 'SP'
-  },
-};
+//REST
 
-const { nome, idade, endereco: { cidade } } = usuario;
+function soma(a, b, ...params) {
+  return params;
+}
 
-console.log(nome);
-console.log(idade);
-console.log(cidade);
+console.log(soma(1, 2, 3, 4, 5, 6, 7,));
+
+// SPREAD
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+const arr3 = [...arr1, ...arr2];
+
+console.log(arr3);
